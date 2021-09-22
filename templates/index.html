@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+<body>
+<!-----------------------------header Part--------------------->
+<section>
+    <header>
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><img src="{% static 'images/bars.png' %}"></a></li>
+            <li><button>Sign In</button></li>
+        </ul>
+    </header>
+ <!-----------------------End of header------------------------------>
+
+ <!-------------------------------Main-------------------------------->
+    <div class="main">
+        <img src="{% static 'images/google.png' %} ">
+<!-----------------search box----------------------------->
+        <div class="search-box">
+            <input type="text" placeholder="Search google or type a URL" class="search">
+            <!-----------search box icon&mic icon ------------------->
+            <div class="icon">
+               <div><img src="{% static 'images/search.png' %}"></div>
+                <div><img src="{% static 'images/mic.png' %}"></div>
+
+            </div>
+            <!----------- End search box icon ------------------->
+
+        </div>
+ <!------------end of search box--------------------->
+  <!-----------------button(2 buttons after search box)------------------------>
+
+        <div class="buttons">
+            <button id="b1">Google search</button>
+             <button id="b11">I'm feeling Lucky</button>
+
+        </div>
+    <!------------------------end button-------------------->
+        <!----------google offered languages---------------->
+        <ul class="languages">
+            <li>Google offered :</li>
+            <li><a href="#">हिन्दी</a></li>
+             <li><a href="#">বাংলা</a></li>
+             <li><a href="#">తెలుగు</a></li>
+             <li><a href="#">हिमराठी</a></li>
+             <li><a href="#">தமிழ் </a></li>
+             <li><a href="#">हગુજરાતી</a></li>
+             <li><a href="#">हಕನ್ನಡ</a></li>
+             <li><a href="#">മലയാളം</a></li>
+             <li><a href="#">हਪੰਜਾਬੀ</a></li>
+
+        </ul>
+        <!----------------end of google offered languages------------->
+    </div>
+  <!----------------------------End main------------------------------>
+<!--------------------------footer---------------------------->
+    <div class="footer">
+        <div class="row row1">
+            <p class="country">India</p>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="row row2">
+            <ul>
+               <li> <a href="#">About</a></li>
+                <li> <a href="#">Advertising</a></li>
+                <li> <a href="#">Bussiness</a></li>
+                <li> <a href="#">How search works</a></li>
+            </ul>
+            <ul>
+               <li> <a href="#">Privacy</a></li>
+                <li> <a href="#">Terms</a></li>
+                <li> <a href="#">Settings</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+ <!---------------------------end of footer---------------------->
+</section>
+
+</body>
+</html>
