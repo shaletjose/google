@@ -3,8 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title id="title">Title</title>
       <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+
 
 </head>
 <body>
@@ -25,7 +27,8 @@
         <img src="{% static 'images/google.png' %} ">
 <!-----------------search box----------------------------->
         <div class="search-box">
-            <input type="text" placeholder="Search google or type a URL" class="search">
+            <input type="text" placeholder="Search google or type a URL" class="search" id="search1">
+             <p id="result"></p>
             <!-----------search box icon&mic icon ------------------->
             <div class="icon">
                <div><img src="{% static 'images/search.png' %}"></div>
@@ -43,7 +46,17 @@
              <button id="b11">I'm feeling Lucky</button>
 
         </div>
+
     <!------------------------end button-------------------->
+
+         <div class="spinner-border text-primary"
+        id="spinner" role="status">
+<!--        <span class="sr-only" id="spinner11">Loading...</span>-->
+             <img src="" id="spinner1">
+    </div>
+    <div id="data"></div>
+
+
         <!----------google offered languages---------------->
         <ul class="languages">
             <li>Google offered :</li>
@@ -61,7 +74,9 @@
         <!----------------end of google offered languages------------->
     </div>
   <!----------------------------End main------------------------------>
-<!--------------------------footer---------------------------->
+
+
+    <!--------------------------footer---------------------------->
     <div class="footer">
         <div class="row row1">
             <p class="country">India</p>
@@ -87,6 +102,7 @@
     </div>
  <!---------------------------end of footer---------------------->
 </section>
+ <script src="{% static 'js/content.js'%}"></script>
 
 </body>
 </html>
