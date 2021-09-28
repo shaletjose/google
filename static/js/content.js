@@ -1,9 +1,5 @@
-
-
-
-      const message= document.querySelector('#search1');
-      var content="hello";
-      message.addEventListener('input', function () {
+const message= document.querySelector('#search1');
+            message.addEventListener('input', function () {
              content=this.value;
             console.log(content);
 <!--             document.getElementById('title').innerHTML=content;-->
