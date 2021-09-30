@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="covid_vaccination_site" />
+    <orderEntry type="module" module-name="googleBootstrap" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

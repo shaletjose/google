@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../covid_vaccination_site/.idea/covid_vaccination_site.iml" filepath="$PROJECT_DIR$/../covid_vaccination_site/.idea/covid_vaccination_site.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/google.iml" filepath="$PROJECT_DIR$/.idea/google.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Transight/googleBootstrap/.idea/googleBootstrap.iml" filepath="$PROJECT_DIR$/../../Transight/googleBootstrap/.idea/googleBootstrap.iml" />
     </modules>
   </component>
 </project>

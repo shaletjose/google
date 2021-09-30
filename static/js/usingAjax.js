@@ -23,7 +23,15 @@ $('#search1').on("keypress",function (e) {
 
      setTimeout(function(){
      console.log("hello==========="+content);
-    window.location.href="static/js/content.html";
+     $.ajax({
+        type: "GET",
+        url: " ",
+        data: '{}',
+        success: function(response){
+            alert("redirecting")
+            window.location.href="static/js/content_ajax.html";
+        }
+    });
 
      }, 5000);
 
